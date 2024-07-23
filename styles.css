@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111;
+}
+
+canvas {
+  border: 2px solid #fff;
+  background: url('background.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.player {
+  background-color: #00f;
+  border: 2px solid #00a;
+}
+
+.zombie {
+  background-color: #0f0;
+  border: 2px solid #0a0;
+}
+
+.bullet {
+  background-color: #ff0;
+  border: 2px solid #aa0;
+}
+
+.health-bar {
+  height: 5px;
+  background-color: red;
+}
+
+.item {
+  background-color: #f0f;
+  border: 2px solid #a0a;
+}
+
+.experience-bar {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 200px;
+  height: 20px;
+  background-color: #333;
+  border: 2px solid #fff;
+}
+
+.experience-bar .fill {
+  height: 100%;
+  background-color: #0f0;
+}
+
+.attack-info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 18px;
+}
